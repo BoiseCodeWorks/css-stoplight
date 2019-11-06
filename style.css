@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  background-color: cornflowerblue;
+  margin: 0;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.stoplight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post {
+  height: 15vh;
+  width: 5vh;
+  background-color: grey;
+}
+
+.light-box {
+  background-color: grey;
+  padding: 1em;
+}
+
+.light {
+  border-radius: 50%;
+  height: 10vh;
+  width: 10vh;
+  margin-bottom: 0.5em;
+}
+
+.red {
+  background-color: rgb(167, 5, 5);
+}
+
+.yellow {
+  background-color: rgb(173, 162, 58);
+}
+
+.green {
+  background-color: rgb(7, 70, 7);
+}
+
+.red:hover {
+  background-color: red;
+  box-shadow: 0 0 30px red;
+}
+
+.yellow:hover {
+  background-color: yellow;
+  box-shadow: 0 0 30px yellow;
+}
+
+.green:hover {
+  background-color: green;
+  box-shadow: 0 0 30px yellowgreen;
+}
